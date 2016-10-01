@@ -8,6 +8,6 @@ onmessage = function(event) {
     // use postMessage() to send anything you want back
     // to the main community page!
 
-    postMessage('Pinged: ' + event.data.value);
+    postMessage('Pinged: ' + event.data.value + ' from senoqular');
   }
 };
